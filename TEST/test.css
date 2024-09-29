@@ -160,6 +160,45 @@
   text-align: center;
 }
 
+.collection {
+    display: flex;
+    flex-direction: column;
+    width: 96%;
+    justify-content: center;
+    margin: auto;
+}
+
+#collTitle {
+    width: 99%;
+    border-bottom: 1px solid rgb(174, 174, 174);
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    margin-bottom: 15px;
+}
+
+#collProduct {
+    width: 99%;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* align-items: center; */
+    margin: auto;
+}
+
+#collProduct1, #collProduct2, #collProduct3, #collProduct4, #collProduct5 {
+    width: 19%;
+}
+
+#collProduct img {
+    width: 100%;
+}
+
+#collProduct p {
+    font-size: 14px;
+}
+
 @media screen and (min-width: 250px) and (max-width: 550px) {
   #search {
     display: none;
